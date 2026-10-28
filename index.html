@@ -101,10 +101,10 @@
       <div class="brand"><span class="mark" aria-hidden="true">P</span> Pinora · VieitezLabs</div>
       <p class="eyebrow">Privacidad clara, sin letra pequeña</p>
       <h1>Política de privacidad</h1>
-      <p class="lead">Esta política explica qué información interviene cuando utilizas Pinora, dónde se guarda y qué papel desempeñan los servicios de Google integrados en la aplicación.</p>
+      <p class="lead">Esta política explica qué información interviene cuando utilizas Pinora, dónde se guarda y qué papel desempeñan los servicios externos integrados en la aplicación.</p>
       <div class="meta" aria-label="Datos de la política">
-        <span class="chip">Última actualización: 25 de octubre de 2026</span>
-        <span class="chip">Versión 1.0</span>
+        <span class="chip">Última actualización: 28 de octubre de 2026</span>
+        <span class="chip">Versión 1.1</span>
         <span class="chip">Idioma: español</span>
       </div>
     </div>
@@ -131,7 +131,7 @@
 
     <main>
       <aside class="notice" aria-label="Resumen importante">
-        <p><strong>En pocas palabras:</strong> Pinora no exige una cuenta ni ofrece sincronización propia. Los lugares, coordenadas y fotos que añades se guardan localmente en tu dispositivo. Google Maps y Google AdMob pueden tratar datos técnicos conforme a sus propias políticas cuando sus servicios se cargan.</p>
+        <p><strong>En pocas palabras:</strong> Pinora no exige una cuenta ni ofrece sincronización propia. Los lugares, coordenadas y fotos que añades se guardan localmente en tu dispositivo. Los servicios de mapas, geocodificación y publicidad pueden recibir datos para prestar sus funciones, conforme a su configuración y a las elecciones de privacidad aplicables.</p>
       </aside>
 
       <section id="introduccion">
@@ -172,30 +172,37 @@
       </section>
 
       <section id="terceros">
-        <h2><span>Sección 06</span>Servicios de terceros: Google Maps y AdMob</h2>
+        <h2><span>Sección 06</span>Servicios de terceros: mapas, geocodificación y publicidad</h2>
         <h3>Google Maps Platform</h3>
         <p>Pinora integra Google Maps para mostrar mapas y facilitar la selección o visualización de lugares. Al cargar esta función, Google puede recibir solicitudes y datos técnicos necesarios para operar, proteger y medir el servicio. El tratamiento realizado por Google se rige por sus propias condiciones y política de privacidad.</p>
+        <h3>Geocodificación y obtención de direcciones</h3>
+        <p>Para obtener una dirección a partir de las coordenadas de un lugar, Pinora utiliza los servicios de geocodificación nativos del dispositivo. En Android, el proveedor depende del sistema y del dispositivo; en iOS se utiliza el servicio nativo de Apple. Esta operación puede requerir conexión a Internet y enviar las coordenadas al proveedor correspondiente, que las trata conforme a sus condiciones y política de privacidad. La dirección obtenida se guarda localmente junto con el lugar. Si no se puede obtener la dirección, el lugar puede guardarse con sus coordenadas y la dirección puede solicitarse de nuevo posteriormente.</p>
         <h3>Google AdMob</h3>
-        <p>Pinora integra el SDK de Google AdMob, actualmente <strong>en fase de pruebas</strong>. Los anuncios de prueba o el propio SDK pueden generar solicitudes técnicas. La integración futura podría mostrar publicidad real y, según la configuración, la región y las elecciones de la persona usuaria, podrían servirse anuncios personalizados, no personalizados o limitados. Esta política no afirma que exista personalización activa en la versión de prueba.</p>
+        <p>Pinora utiliza Google AdMob para mostrar publicidad, incluidos banners y anuncios intersticiales. Según la región, la configuración del servicio y las elecciones de privacidad de la persona usuaria, pueden mostrarse anuncios personalizados, no personalizados o limitados. La disponibilidad de anuncios depende del servicio de Google. Las versiones destinadas a pruebas pueden utilizar anuncios de prueba.</p>
         <p>El funcionamiento de AdMob puede implicar identificadores del dispositivo o publicitarios, dirección IP, información del dispositivo, interacciones con anuncios, diagnósticos y ubicación aproximada inferida, entre otros datos descritos por Google. La disponibilidad de controles, mensajes de consentimiento y categorías de anuncios depende de la configuración efectiva de la aplicación y de la legislación aplicable.</p>
-        <div class="links" aria-label="Enlaces oficiales de Google">
+        <h3 id="consentimiento">Consentimiento y opciones de privacidad</h3>
+        <p>Pinora utiliza User Messaging Platform (UMP) de Google para consultar el estado de las elecciones de privacidad y mostrar los formularios que correspondan según la región y la configuración del servicio. Antes de solicitar anuncios, la aplicación comprueba mediante UMP si puede hacerlo. Las elecciones del formulario determinan los tratamientos publicitarios permitidos; rechazar la personalización no implica necesariamente que dejen de mostrarse todos los anuncios.</p>
+        <p>Cuando UMP indique que es necesario ofrecer ese acceso, puedes revisar y modificar tus elecciones desde <strong>Settings / Ajustes → Opciones de privacidad</strong>. Puedes consultar este documento desde <strong>Settings / Ajustes → Política de privacidad</strong>. La denominación puede variar según el idioma de la aplicación. Puedes retirar o modificar el consentimiento mediante las opciones disponibles; su retirada no afecta a la licitud del tratamiento previo.</p>
+        <p>Los permisos de ubicación, cámara y fotografías se gestionan por separado desde los ajustes del dispositivo. El consentimiento publicitario no concede esos permisos ni determina el acceso a los lugares guardados localmente.</p>
+        <div class="links" aria-label="Enlaces oficiales de los proveedores">
           <a href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener noreferrer">Política de privacidad de Google ↗</a>
           <a href="https://developers.google.com/maps/security/compliance/security-compliance" target="_blank" rel="noopener noreferrer">Privacidad y seguridad de Google Maps Platform ↗</a>
           <a href="https://support.google.com/admob/answer/6128543?hl=es" target="_blank" rel="noopener noreferrer">AdMob: políticas de privacidad y divulgación ↗</a>
+          <a href="https://www.apple.com/legal/privacy/es/" target="_blank" rel="noopener noreferrer">Política de privacidad de Apple ↗</a>
           <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Mi centro de anuncios de Google ↗</a>
         </div>
       </section>
 
       <section id="transferencias">
         <h2><span>Sección 07</span>Destinatarios y transferencias internacionales</h2>
-        <p>VieitezLabs no comparte con terceros los lugares, coordenadas o fotos almacenados localmente mediante un servidor propio. No obstante, Google puede tratar datos técnicos relacionados con Maps o AdMob en calidad y con fines definidos en su documentación.</p>
-        <p>Google opera infraestructura internacional, por lo que ese tratamiento puede producirse fuera del país de residencia. Las garantías, ubicaciones y mecanismos aplicables deben consultarse en la política y documentación vigente de Google. VieitezLabs no puede describir como propia una transferencia realizada exclusivamente por un proveedor independiente.</p>
+        <p>VieitezLabs no comparte con terceros los lugares, coordenadas o fotos almacenados localmente mediante un servidor propio. Al utilizar mapas, solicitar una dirección o cargar publicidad, los proveedores correspondientes pueden recibir las solicitudes, coordenadas y datos técnicos necesarios para esas funciones, conforme a lo explicado en la sección 6 y a sus políticas.</p>
+        <p>Los proveedores externos pueden operar infraestructura internacional, por lo que ese tratamiento puede producirse fuera del país de residencia. Las garantías, ubicaciones y mecanismos aplicables deben consultarse en la política y documentación vigente del proveedor correspondiente. VieitezLabs no puede describir como propia una transferencia realizada exclusivamente por un proveedor independiente.</p>
       </section>
 
       <section id="conservacion">
         <h2><span>Sección 08</span>Conservación, eliminación y desinstalación</h2>
         <p>El contenido local permanece en el dispositivo hasta que lo elimines desde Pinora, borres los datos de la aplicación o desinstales la aplicación, sujeto al comportamiento del sistema operativo. La desinstalación suele borrar los datos locales de la aplicación, pero podrían existir copias separadas si el sistema o un servicio de respaldo las hubiera creado.</p>
-        <p>VieitezLabs no puede borrar a distancia contenidos que no conserva en sus sistemas. Los plazos de conservación de datos tratados por Google son los que determine Google conforme a sus políticas y controles.</p>
+        <p>VieitezLabs no puede borrar a distancia contenidos que no conserva en sus sistemas. Los plazos de conservación de datos tratados por proveedores externos se rigen por las políticas y controles de cada proveedor.</p>
       </section>
 
       <section id="seguridad">
